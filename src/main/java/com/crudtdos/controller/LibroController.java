@@ -69,7 +69,7 @@ public class LibroController {
 			model.addAttribute("mensaje", "Error en el guardado");
 			model.addAttribute("cssmensaje", "alert alert-danger");
 		}
-		return "redirect:/listadoApellido";
+		return "redirect:/listaLibros";
 	}
 	
 }
